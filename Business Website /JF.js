@@ -38,6 +38,8 @@
    </ul>
  </nav>
 
+ <div class="parallaxJames"></div>
+
 
 </body>	
 	
