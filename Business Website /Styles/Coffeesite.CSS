@@ -119,37 +119,120 @@ li{
   margin: 0px auto;
 }
 
-/* Product page
-.parallax4 {
-   
-   /* The image used */
-   background-image: url("ProductPic.jpg");
 
-   /* Set a specific height */
+/* Product page */
+
+
+.parallax4 { 
    min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("ProductPic.jpg");
 
-   /* Create the parallax scrolling effect */
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+
 }
 
-.Product {
-    height:1000px;
-    width:100%;
-    background-image: url("ProductPic1.jpg");
+
+.ProductStory {
+
+  height: auto;
+  width: 400px;
+  margin: 0px auto;
+  
+
+}
+
+.parallax5 {
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("ProductPic3.jpg");
     
+}   
+
+
+.ProductStory1{
+
+ height: auto;
+ width: 400px;
+margin: 0px auto;
 
 }
 
-.Product1{
-    height:1000px;
-    width:100%;
-    background-image: url("coffeewhitecup.jpg");
+
+
+.parallax6 {
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("ProductPic2.jpg");
     
+}   
+
+.ProductStory2{
+
+ height: auto;
+ width: 400px;
+ margin: 0px auto;
+
+
 }
 
+.button {
+    background-color: #DDD;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+
+  }
+
+  .map{
+
+    width: 410px;
+    height: 250px; 
+    border:0;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    
+  }
+
+ div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+}
 
 
 /* Page: Team */
