@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
+<script src = 'JQueryCoffee.js'></script>
+<link rel = 'stylesheet'href = 'Styles/Coffeesite.CSS'>
+</link>
+<title>The Coffee Code</title>
+</head>
+<body>
+
+<nav>
+   <ul>
+     <li class="sub-menu-parent" tab-index="0">
+       <a href="index.html"><b>CODING COFFEE</b></a>
+       <ul class="sub-menu">
+         <li><a href="index.html">Home</a></li>
+         <li><a href="JF.html">Team</a></li>
+        </ul>
+     
+     </li>
+     <li class="sub-menu-parent" tab-index="0">
+       <a href="Our_Products.html"> <b>PRODUCTS</b></a>
+       <ul class="sub-menu">
+         <li><a href="Our_Products.html">Sight Glass</a></li>
+         <li><a href="Our_Products.html">Atomic</a></li>
+         <li><a href="Our_Products.html">Estate Coffee</a></li>
+       </ul>
+     </li>
+     
+     <li class="sub-menu-parent" tab-index="0">
+       <a href="Contact_Coffee.html"><b>CONTACT</b></a>
+       <ul class="sub-menu">
+         <li><a href="#">Contact Form</a></li>
+       </ul></li>
+   </ul>
+ </nav>
+
+
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname"></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname"></label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country"></label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value = "the netherlands">The Netherlands</option>
+      <option value="usa">USA</option>
+
+    </select>
+
+    <label for="subject"></label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit" onclick="alert('Thanks for the submission! \ We will contact you soon!')">
+  </form>
+</div>
+
+</body>	
+	
+</html>
